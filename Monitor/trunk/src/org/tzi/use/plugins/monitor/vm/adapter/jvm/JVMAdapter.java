@@ -81,6 +81,8 @@ import com.sun.tools.jdi.SocketAttachingConnector;
  */
 public class JVMAdapter extends AbstractVMAdapter {
 
+	public static final String JVM_ADAPTER_NAME = "JVMAdapter";
+
 	private static final int SETTING_HOST = 0;
 	
 	private static final int SETTING_PORT = 1;
